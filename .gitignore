@@ -1,0 +1,15 @@
+# Ignore virtual environment folder
+myenv/
+
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore TensorFlow model files
+*.h5
+*.pb
+*.onnx
+*.tflite
+
+# Ignore system-specific files (macOS, Windows)
+.DS_Store
+Thumbs.db
