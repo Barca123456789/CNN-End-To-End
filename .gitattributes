@@ -1,0 +1,26 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Ensure Python scripts use LF line endings
+*.py text eol=lf
+
+# Shell scripts should always use LF
+*.sh text eol=lf
+
+# Batch scripts should use CRLF on Windows
+*.bat text eol=crlf
+
+# Text files should use CRLF on Windows
+*.txt text eol=crlf
+
+# Image files should be treated as binary (no conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# TensorFlow models and other binaries should not be changed
+*.h5 binary
+*.pb binary
+*.onnx binary
+*.tflite binary
+
