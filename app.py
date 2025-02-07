@@ -4,7 +4,7 @@ import io
 from PIL import Image
 
 # FastAPI endpoint URL
-API_URL = "https://your-api-service.onrender.com/predict/" # Make sure your FastAPI server is running
+API_URL = "https://cnn-end-to-end-001.onrender.com/predict/" # Make sure your FastAPI server is running
 
 # Set page title and layout
 st.set_page_config(page_title="Happy vs Sad Image Classifier", page_icon=":smiley:", layout="centered")
